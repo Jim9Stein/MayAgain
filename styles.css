@@ -31,6 +31,10 @@ li {
     flex: 1;
 }
 
+.container{
+    padding: 50px 0;
+}
+
 .row {
    width: 100%;
    max-width: 800px;
@@ -39,6 +43,14 @@ li {
 
 .text-purple {
    color: #6030b1; 
+}
+
+section:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.section__title {
+    margin-bottom: 20px;
 }
 
 /* NAVIGATION BAR*/
@@ -90,6 +102,11 @@ nav {
     flex-direction: column;
 }
 
+.about-me__info{
+   display: flex; 
+   flex-direction: column;
+}
+
 .about-me__info--container{
     display: flex;
     flex-direction: column;
@@ -130,8 +147,55 @@ nav {
     font-size: 20px;
     color: #242424;
     text-decoration: none;
-    
+    padding: 0 16px;
 }
+
+.social__list {
+    display: flex;
+}
+
+.about-me__img--container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.about-me__img {
+    width: 100%;
+}
+
+/* TECH - STACK */
+
+.language__img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.language {
+    width: 25%;
+}
+.language__img--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+.language__list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+    
+
+
+
 
 
 
